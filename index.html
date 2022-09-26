@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Navbar Template · Bootstrap v5.1</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/navbars/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/auto.css" rel="stylesheet">
+
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+    /*  .btn-nav{
+        background:#3B63CB;
+        border-radius:2.5rem;
+        font-size:2rem;
+        color:white;
+        font-weight:400;
+        font-family: 'Inter', sans-serif;
+        padding:1rem 2rem;
+      }
+
+      .item-box{
+        font-family: 'Inter', sans-serif;
+        color: black;
+        border-bottom: 3px solid #fff;
+        font-size:2rem;
+        }
+
+        .item-box:hover{
+          font-family: 'Inter', sans-serif;
+          color: #3B63CB;
+          font-weight: 700;
+          border-bottom: 3px solid #3B63CB;
+        }
+
+        .btn-nav:hover{
+          background:#fff;
+          border-radius:2.5rem;
+          font-size:2rem;
+          color:#3B63CB;
+          box-shadow:0px 0px 0px 3px #3B63CB inset;
+          font-weight:400;
+          padding:1rem 2rem;
+        }**/
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link href="navbar.css" rel="stylesheet">
+  </head>
+  <body>
+
+<main>
+
+  <nav class="navbar navbar-expand-lg navbar-light " aria-label="Eighth navbar example">
+    <div class="container-fluid nav-box">
+      <a class="navbar-brand" href="#">
+        <button class="btn btn-nav align-text-top" type="button" name="button">
+          Media Forenscis
+        </button>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExample07">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end  ">
+          <li class="nav-item ">
+            <a class="nav-link item-box" aria-current="page" href="#">Image forensic</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link item-box" href="#">Publication</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link item-box">Tool</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link item-box">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!--section2 media forensic-->
+<section class="section2">
+
+  <!--section2 Title-->
+  <div id="homepage" class="title" class="container">
+    <h1>Media Forensics Repository</h1>
+    <h2>The posts presented below are real world examples of visual misinformation/disinformation shared online in the past.</h2>
+  </div>
+
+    <!-- Keyword-->
+    <div class="box-keyword">
+
+      <span class="text">KEYWORD :</span>
+      <span><button class="btn btn-info" type="button" name="button">All</button></span>
+      <span><button class="btn btn-info" type="button" name="button">Copy-move</button></span>
+      <span><button class="btn btn-info" type="button" name="button">Deepfakers</button></span>
+      <span><button class="btn btn-info" type="button" name="button">Splicing</button></span>
+
+    </div>
+    <!--section2 media forensic-->
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+  <div class="col img-box1">
+    <div class="card shadow-sm img1">
+      <img src="img/mf-img1.png" alt="">
+
+      <div class="card-body">
+        <h2>Deeper faker presidents used in Russia-Ukraine war</h2>
+        <span>A deepfake video shared on Twitter, appearing to show Russian President Vladimir Putin declaring peace, has resurfaced. </span>
+        <button  class="btn btn-info" type="button" name="button">More details</button>
+        <div class="d-flex justify-content-between align-items-center">
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col img-box2">
+    <div class="card shadow-sm img1">
+      <img src="img/mf-img2.png" alt="">
+
+      <div class="card-body">
+        <h2>Deeper faker presidents used in Russia-Ukraine war</h2>
+        <span>A deepfake video shared on Twitter, appearing to show Russian President Vladimir Putin declaring peace, has resurfaced. </span>
+        <button  class="btn btn-info" type="button" name="button">More details</button>
+        <div class="d-flex justify-content-between align-items-center">
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<div class="slider">
+  <div class="item">
+      <div class="sp sp1">
+        <div class="btn-menu pre first">
+          <a href="#">
+            <img src="img/first.svg" alt="">
+            first
+          </a>
+        </div>
+        <div class="btn-menu pre">
+          <a href="#">
+            <img src="img/pre.svg" alt="">
+            Previous
+          </a>
+        </div>
+      </div>
+
+      <div class="sp sp2">
+        <div class="btn-menu num-1">
+          <a href="#">
+            1
+          </a>
+        </div>
+        <div class="btn-menu num-2">
+          <a href="#">
+            2
+          </a>
+        </div>
+        <div class="btn-menu num-3">
+          <a href="#">
+          3
+          </a>
+        </div>
+      </div>
+
+      <div class="sp sp3">
+        <div class="btn-menu next">
+          <a href="#">
+            Next
+            <img src="img/next.svg" alt="">
+          </a>
+        </div>
+        <div class="btn-menu previous last">
+          <a href="#">
+            Last
+            <img src="img/last.svg" alt="">
+          </a>
+        </div>
+      </div>
+  </div>
+  </div>
+
+
+
+</section>
+
+<!--section2-->
+
+
+
+
+  <!--section3 image_forensics-->
+    <section class="section section3">
+    <div id="homepage" class="title" class="container">
+      <h1>Image forensic</h1>
+      <h2>A list of different forms of visual content forgeries</h2>
+    </div>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+    <div class="col">
+      <div class="card shadow-sm img1">
+        <img src="img/imf1.png" alt="">
+
+        <div class="card-body">
+          <p class="card-text">Copy-Move Forgery</p>
+          <div class="d-flex justify-content-between align-items-center">
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm img2">
+        <img src="img/imf2.png" alt="">
+        <div class="card-body">
+          <p class="card-text">Image Splicing Forgery</p>
+          <div class="d-flex justify-content-between align-items-center">
+<!-- flex box
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div>
+            <small class="text-muted">9 mins</small>
+          -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm img3">
+        <img src="img/imf3.png" alt="">
+
+        <div class="card-body">
+          <p class="card-text">Deepfakes</p>
+          <div class="d-flex justify-content-between align-items-center">
+<!--
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div>
+            <small class="text-muted">9 mins</small>
+    --->
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+      <div class="btn btn-primary float-end">More Image Forensic</div>
+
+  </section>
+<!---image--->
+
+
+<!---section 4 Tools--->
+<section class="section section4">
+<div id="homepage" class="title" class="container">
+  <h1>Image forensic</h1>
+  <h2>A list of different forms of visual content forgeries</h2>
+</div>
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+<div class="col">
+  <div class="card img1">
+    <div class="card-body">
+      <div class="toolbox">
+        <h3>Verification Guides </h3>
+      </div>
+      <div class="list">
+        <div class="item"> <img src="img/list.svg" alt="">  <a href="">Verification handbook</a></div>
+        <div class="item"> <img src="img/list.svg" alt="">  <a href="">FirstDraft’s Guide</a></div>
+        <div class="item"> <img src="img/list.svg" alt="">  <a href="">Bellingcat Resources</a></div>
+        <div class="item"> <img src="img/list.svg" alt="">  <a href="">Hun-OSINT</a></div>
+        <div class="item"> <img src="img/list.svg" alt="">  <a href="">AsINT_Collection</a></div>
+        <div class="item"> <img src="img/list.svg" alt="">  <a href="">OSiNT Framework</a></div>
+    </div>
+      <div class="scroll">
+        <div class="btn-menu pre"><a href="#"> <img src="img/pre.svg" alt=""> Previous</a> </div>
+        <div class="btn-menu next"><a href="#">Next <img src="img/next.svg" alt=""></a> </div>
+      </div>
+      <div class="d-flex justify-content-between align-items-center">
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="col">
+  <div class="card shadow-sm img1">
+    <div class="card-body">
+      <div class="toolbox">
+        <h3>Verification Guides </h3>
+      </div>
+      <div class="list">
+        <div class="item"> <img src="img/list.svg" alt="">  <a href="">Verification handbook</a></div>
+        <div class="item"> <img src="img/list.svg" alt="">  <a href="">FirstDraft’s Guide</a></div>
+        <div class="item"> <img src="img/list.svg" alt="">  <a href="">Bellingcat Resources</a></div>
+        <div class="item"> <img src="img/list.svg" alt="">  <a href="">Hun-OSINT</a></div>
+        <div class="item"> <img src="img/list.svg" alt="">  <a href="">AsINT_Collection</a></div>
+        <div class="item"> <img src="img/list.svg" alt="">  <a href="">OSiNT Framework</a></div>
+    </div>
+      <div class="scroll">
+        <div class="btn-menu pre"><a href="#"> <img src="img/pre.svg" alt=""> Previous</a> </div>
+        <div class="btn-menu next"><a href="#">Next <img src="img/next.svg" alt=""></a> </div>
+      </div>
+      <div class="d-flex justify-content-between align-items-center">
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="col">
+  <div class="card shadow-sm img1">
+    <div class="card-body">
+      <div class="toolbox">
+        <h3>Verification Guides </h3>
+      </div>
+      <div class="list">
+        <div class="item"> <img src="img/list.svg" alt="">  <a href="">Verification handbook</a></div>
+        <div class="item"> <img src="img/list.svg" alt="">  <a href="">FirstDraft’s Guide</a></div>
+        <div class="item"> <img src="img/list.svg" alt="">  <a href="">Bellingcat Resources</a></div>
+        <div class="item"> <img src="img/list.svg" alt="">  <a href="">Hun-OSINT</a></div>
+        <div class="item"> <img src="img/list.svg" alt="">  <a href="">AsINT_Collection</a></div>
+        <div class="item"> <img src="img/list.svg" alt="">  <a href="">OSiNT Framework</a></div>
+    </div>
+      <div class="scroll">
+        <div class="btn-menu pre"><a href="#"> <img src="img/pre.svg" alt=""> Previous</a> </div>
+        <div class="btn-menu next"><a href="#">Next <img src="img/next.svg" alt=""></a> </div>
+      </div>
+      <div class="d-flex justify-content-between align-items-center">
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+  <div class="btn btn-primary float-end">More Tools</div>
+
+</section>
+
+<!---section 3 Tools--->
+
+
+
+
+<!---section 4 contribute--->
+<section class="section5">
+
+<div class="contri">
+  <div class="text">
+    <div class="title h2">Would you like to contribute to the reposrepoitory ?</div>
+    <div class="txt">If you know of any case of visual mis/disinformation which was
+      widely shared online in the past, and is not avaialble on this repository, please
+       let us know. You can provide information about it by clicking the button below.
+    </div>
+  </div>
+
+  <div class="button">
+    <button class="btn btn-primary" type="button" name="button">Contribute</button>
+  </div>
+
+</div>
+</section>
+
+<!--- section 4 contribute-->
+
+<!---Section5 footer--->
+<footer class="sec-footer">
+
+<div class=" row">
+  <div class="col-4  footer-box">
+    <img src="img/logo.svg" alt="logo">
+  </div>
+
+  <div class="col-4  back">
+    <div class="footer-box">
+      <div class="h2"> <a href="#">Contact with me</a> </div>
+      <div class="footer-item"> <a href="#">sohail.khan@uib.no</a> </div>
+      <div class="footer-item"><a href="#">SFI MediaFutures</a></div>
+    </div>
+  </div>
+
+  <div class="col-4  back">
+    <div class="footer-box">
+      <div class="h2"> <a href="#">Citemap</a> </div>
+        <div class="footer-item text"> <a href="#">Home</a> </div>
+        <div class="footer-item text"> <a href="#">Publication</a> </div>
+        <div class="footer-item text"> <a href="#">Tools</a> </div>
+        <div class="footer-item text"> <a href="#">Image forensic</a> </div>
+        <div class="footer-item text"> <a href="#">About</a> </div>
+
+
+    </div>
+  </div>
+</div>
+
+  </footer>
+</main>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+
+  </body>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</html>
